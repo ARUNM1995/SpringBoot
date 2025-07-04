@@ -10,6 +10,9 @@ import com.jspider.poc.service.RegisterService;
 @Controller
 public class RegisterController {
 
+
+
+
 	@Autowired
 	private RegisterService registerService;
 
