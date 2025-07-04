@@ -19,6 +19,7 @@ public class RegisterController {
 
 	@PostMapping(value = "/register")
 	public String register(Register dto) {
+	System.out.println("Register method"
 		registerService.register(dto);
 		return "home";
 	}
