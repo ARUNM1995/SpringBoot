@@ -17,10 +17,20 @@ public class RegisterController {
 		// TODO Auto-generated constructor stub
 	}
 
+
+
+
+
+
+
 	@PostMapping(value = "/register")
 	public String register(Register dto) {
 		registerService.register(dto);
 		return "home";
 	}
+
+
+
+
 
 }
